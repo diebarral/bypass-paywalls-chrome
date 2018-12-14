@@ -1,18 +1,19 @@
-# Bypass Paywalls for Chrome
-### Installation Instructions
+# Bypass Paywalls para Chrome
+### Instrucciones de instalación
+
 **Google Chrome**:
-1. Download this repo as a ZIP from github.
-1. Unzip the file and you should have a folder named `bypass-paywalls-chrome-master`.
-1. In Chrome go to the extensions page (`chrome://extensions`) 
-1. Enable Developer Mode
-1. Drag the `bypass-paywalls-chrome-master` folder anywhere on the page to import it.
+1. Descargar este repo como ZIP de Github.
+1. Descomprimir el zip, deberías ver una carpeta llamada `bypass-paywalls-chrome-master`.
+1. En Chrome ir a la página de extensiones (`chrome://extensions`)
+1. Habilitar el Developer Mode (Modo desarrollador)
+1. Arrastrar la carpeta `bypass-paywalls-chrome-master` en cualquier lugar sobre la página para importarlo.
 
 Notes:
-* Every time you open Chrome it may warn you about running extensions in developer mode, just hit 🗙 to keep the extension enabled.
-* You will be logged out for any site you have checked.
-* This extension works best along side the adblocker uBlock Origin.
+* Cada vez que abras Chrome, puede advertirte sobre correr extensiones en modo desarrollador, solo hace click en 🗙 para mantener la extensión habilitada.
+* Vas a ser deslogueado de todos los sitios que hayas seleccionado en las opciones.
+* Esta extensión funciona mejor junto al adblocker uBlock Origin.
 
-### Bypass the following sites' paywalls with this extension:
+### Evitá los paywalls de los siguientes sitios con ésta extensión:
 
 Baltimore Sun (baltimoresun.com)\
 Barron's (barrons.com)\
@@ -25,6 +26,7 @@ Dagens Nyheter (dn.se)\
 Denver Post (denverpost.com)\
 Dynamed Plus (dynamed.com)\
 The Economist (economist.com)\
+El Observador Uruguay (elobservador.com.uy)\
 Examiner (examiner.com.au)\
 Financial Times (ft.com)\
 Foreign Policy (foreignpolicy.com)\
@@ -60,5 +62,5 @@ The Washington Post (washingtonpost.com)\
 The Wall Street Journal (wsj.com)\
 Wired (wired.com)
 
-### Troubleshooting
-For The Denver Post turn off uBlock.
+### Problemas?
+Para The Denver Post deshabilitar uBlock.

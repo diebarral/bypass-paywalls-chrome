@@ -6,6 +6,13 @@
 	"browser_action": {
 		"default_popup": "popup.html"
 	},
+	"content_scripts": [
+    {
+        "matches": ["https://www.elobservador.com.uy/*"],
+				"run_at": "document_idle",
+        "js": ["/blockers/el_observador.js"]
+    }
+	],
 	"description": "Bypass News Sites' Paywalls",
 	"icons": {
 		"128": "bypass.png"
@@ -17,6 +24,6 @@
 		"chrome_style": true,
 		"page": "options.html"
 	},
-    "permissions": [ "cookies", "<all_urls>", "storage", "webRequest", "webRequestBlocking"],
+  "permissions": [ "cookies", "<all_urls>", "storage", "tabs", "webRequest", "webRequestBlocking"],
 	"version": "1.3.7"
 }
